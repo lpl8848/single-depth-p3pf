@@ -1,0 +1,33 @@
+# CMake and compiler output
+build*/
+out/
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.exe
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.matplotlib/
+
+# Generated experiment output and local datasets
+results/
+paper_results/
+*.csv
+*.png
+*.pdf
+*.txt
+!CMakeLists.txt
+!requirements.txt
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
